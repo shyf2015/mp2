@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>音乐播放器</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<div class="play">
+			<h3>弱水山千</h3>
+			<div class="portrait">
+				<ul>
+					<li><img src="image/周传雄.jpg"></li>
+					<li><img src="image/沙宝亮.jpg"></li>
+					<li><img src="image/张靓颖.jpg"></li>
+					<li><img src="image/邓紫棋.jpg"></li>
+					<li><img src="image/周杰伦.jpg"></li>
+					<li><img src="image/周传雄.jpg"></li>
+					<li><img src="image/李建.jpg"></li>
+				</ul>
+			</div>
+			<div class="small_box">
+				<span class="previous"><a href="javascript:void(0);"><img src="image/boyyon.png"></a></span>
+				<span class="pause"><a href="javascript:void(0);"><img src="image/boyyon.png"></a></span>
+				<span class="play2"><a href="javascript:void(0);"><img src="image/boyyon.png"></a></span>
+				<span class="next"><a href="javascript:void(0);"><img src="image/boyyon.png"></a></span>
+			</div>
+		</div>
+		<div class="list">
+			<h3>音乐列表</h3>
+			<ul>
+				<li style="margin-top:8px;" dateSrc="music/周传雄-弱水三千.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>弱水山千-周传雄</li>
+				<li dateSrc="music/流浪者-野子.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>野子-沙宝亮</li>
+				<li dateSrc="music/张靓颖-花开的声音.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>花开的声音-张靓颖</li>
+				<li dateSrc="music/喜欢你-邓紫棋.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>喜欢你-邓紫棋</li>
+				<li dateSrc="music/周杰伦-简单爱.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>简单爱-周杰伦</li>
+				<li dateSrc="music/周传雄-坐看云起时.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>坐看云起时-周传雄</li>
+				<li dateSrc="music/风吹麦浪-李建.mp3"><span class="begin"><img src="image/boyyon.png"></span><span class="close"><img src="image/boyyon.png"></span>风吹麦浪-李建&amp&amp孙俪</li>
+			</ul>
+		</div>
+	</div>
+	<input type="text" >
+	<audio src="music/周传雄-弱水三千.mp3" controls="controls" id="music"></audio>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+<script src="music.js"></script>
+<script>
+	Mplay();
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+*{padding:0;margin:0;border:0;}
+	.box{
+		position:relative;
+		width:600px;
+		height:400px;
+		border-radius:5px;
+	}
+	.play{
+		float:left;
+		width:300px;
+		height:400px;
+		background-color: #aaa;
+		border-radius:5px;
+	}
+	.play h3{
+		background: #00bfff;
+		width: :300px;
+		height:50px;
+		text-align:center;
+		line-height:50px;
+		font-size: 30px;
+		font-family:verdana;
+	}
+	.portrait{
+		background: blue;
+		width: 300px;
+		height:200px;
+		overflow:hidden;
+	}
+	.portrait ul li{
+		list-style: none;
+		width: 300px;
+		height:200px;
+		float:left;
+	}
+	.portrait ul li img{
+		width:300px;
+		height:200px;
+	}
+
+	.play .small_box{
+		width:160px;
+		height:30px;
+		margin:25px auto;
+	}
+	.play .small_box span{
+		overflow: hidden;
+		float:left;
+		margin-left:10px;
+		width:42px;
+		height:25px;
+	}
+	.play .small_box .previous img{
+		margin-top:-95px;
+		margin-left:-50px;
+	}
+	.play .small_box .next img{
+		margin-top:-95px;
+		margin-left:-100px;
+	}
+	.play .small_box .pause img{
+		margin-top:-95px;
+		margin-left:-240px;
+	}
+	.play .small_box .play2 img{
+		margin-top:-95px;
+		margin-left:-290px;
+	}
+	.play .small_box .play2{
+		display:none;
+	}
+	.list{
+		
+		float:left;
+		width:300px;
+		height:400px;
+		background-color: #888;
+		border-radius:5px;
+	}
+	.list h3{
+		width: 300px;
+		height:50px;
+		font-size: 30px;
+		font-family: verdana;
+		text-align: center;
+		line-height:50px; 
+		background-color:#faf;
+	}
+	.list ul{
+		width:300px;
+		overflow: auto;
+		height:350px;
+	}
+	.list ul li{
+		position:relative;
+		list-style: none;
+		height:39px;
+		border-bottom:1px;
+		text-indent: 40px;
+		line-height: 39px;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+	.list ul li .begin{
+		position:absolute;
+		width:25px;
+		height:25px;
+		left: 10px;
+		top:7px;
+		overflow:hidden;
+	}
+	.list ul li .begin img{
+		margin-top:-95px;
+		margin-left:-290px;
+		opacity:0.7;
+	}
+	.list ul li .close{
+		position:absolute;
+		width:25px;
+		height:25px;
+		left: 10px;
+		top:7px;
+		overflow:hidden;
+		display: none;
+	}
+	.list ul li .close img{
+		margin-top:-95px;
+		margin-left:-338px;
+		opacity:0.7;
+	}
+	audio{
+		display:none;
+		margin: 100px;
+	}
+	.list ul li .haha{
+		display:none;
+	}
